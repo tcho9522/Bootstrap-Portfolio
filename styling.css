@@ -1,0 +1,160 @@
+a{
+    text-decoration: none;
+    color: #777777;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.masthead{
+    border-bottom: solid #cccccc 2px; 
+}
+#header {
+    height: 80px;
+    width: 960px;
+    margin: 0px auto;
+}
+#name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 100%;
+    
+    padding: 15px 0;
+}
+#linkbox{
+    font-size: 14px;
+    float: right;
+    text-align: right;
+}
+#links{
+    position: relative;
+    top: 25px;
+}
+#contact{
+    padding-left: 10px;
+}
+#portfolio{
+    padding: 0px 10px;
+    border-left: 1px solid#edf2ef;
+    border-right: 1px solid #edf2ef;
+}
+#index{
+    padding-right: 10px;
+}
+
+
+.background {
+    background-color: #edf2ef;
+    height: 700px;
+}
+
+.maincontent{
+    width: 960px;
+    margin: 0 auto;
+    
+    /* padding-top: 20px; */
+}
+
+#bio{
+    background-color: white;
+    position: relative;
+    top: 20px;
+    /* padding: 20px; */
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa7;
+    border-bottom: 2px lightgrey solid;
+    margin: 0 20px;
+    padding: 20px 0px;
+}
+p{
+    padding: 20px;
+}
+#bio-image{
+    width: 200px;
+    height: 113px;
+    float: left;
+    margin-right: 10px;
+}
+footer{
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-top: 4px #4aaaa5 solid;
+    background-color: #666666;
+    font-size: 12px;
+}
+#copyright {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+
+.inputpage{
+    line-height: 150%;
+    padding: 20px;
+}
+#name, #email{
+    width: 100%;
+    margin: 2px;
+}
+#message {
+    width: 100%;
+    height: 250px;
+}
+#button{
+    width: 80px;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.coding, .volleyball{
+    width: 250px;
+    height: 240px;
+    float: left;
+    margin-right: 30px;
+}
+#picture{
+    position: relative;
+}
+#coding, #volleyball{
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+#text{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+.row1, row2{
+    clear: both;
+}
+
+.main1 {
+    top: 40px;
+    position: relative;
+    max-width: 920px;
+    height: 500px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 20px;
+    /* height: 500px; */
+}

@@ -5,6 +5,8 @@ a{
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+/*========== Header ==========*/
 .masthead{
     border-bottom: solid #cccccc 2px; 
 }
@@ -23,8 +25,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: white;
-    height: 100%;
-    
+    height: 100%;  
     padding: 15px 0;
 }
 #linkbox{
@@ -35,33 +36,30 @@ body {
 #links{
     color: white;
     position: relative;
-    /* top: 25px; */
 }
-#contact{
-    padding-left: 10px;
+#index{
+    padding-right: 10px;
 }
 #portfolio{
     padding: 0px 10px;
     border-left: 1px solid#edf2ef;
     border-right: 1px solid #edf2ef;
 }
-#index{
-    padding-right: 10px;
+#contact{
+    padding-left: 10px;
 }
 
-
+/*========== Entire Body ==========*/
 .background {
     background-color: #edf2ef;
     height: 700px;
 }
-
 .maincontent{
     width: 960px;
     margin: 0 auto;
     
     /* padding-top: 20px; */
 }
-
 #bio{
     background-color: white;
     position: relative;
@@ -86,6 +84,8 @@ p{
     float: left;
     margin-right: 10px;
 }
+
+
 footer{
     position: relative;
     position: fixed;
@@ -103,7 +103,7 @@ footer{
     top: 10px;
 }
 
-
+/*========== CONTACTS PAGE ==========*/
 .inputpage{
     line-height: 150%;
     padding: 20px;
@@ -139,3 +139,13 @@ footer{
     position: relative;
     bottom: 40px;
 }   
+
+@media only screen and (max-width: 768px){
+    body {
+        width: 100%;
+    }
+
+    .maincontent {
+        width: 100%;
+    }
+}

@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #777777;
+    color: white;
 }
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -10,6 +10,10 @@ body {
 }
 #header {
     height: 80px;
+    width: 960px;
+    margin: 0px auto;
+}
+#bar{
     width: 960px;
     margin: 0px auto;
 }
@@ -29,8 +33,9 @@ body {
     text-align: right;
 }
 #links{
+    color: white;
     position: relative;
-    top: 25px;
+    /* top: 25px; */
 }
 #contact{
     padding-left: 10px;
@@ -121,40 +126,16 @@ footer{
     top: 20px;
     margin-bottom: 20px;
 }
-
-.coding, .volleyball{
-    width: 250px;
-    height: 240px;
-    float: left;
-    margin-right: 30px;
+/*========== Portfolio ==========*/
+#pictures{
+    padding: 20px;
 }
-#picture{
-    position: relative;
-}
-#coding, #volleyball{
+#picBanner{
     width: 250px;
-    height: 40px;
+    height: 30px;
     background-color: #4aaaa5;
     text-align: center;
-    position: relative;
-    bottom: 50px;
-}
-#text{
     color: white;
     position: relative;
-    top: 10px;
-}
-.row1, row2{
-    clear: both;
-}
-
-.main1 {
-    top: 40px;
-    position: relative;
-    max-width: 920px;
-    height: 500px;
-    margin: 0px auto;
-    background-color: white;
-    padding: 20px;
-    /* height: 500px; */
-}
+    bottom: 40px;
+}   
